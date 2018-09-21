@@ -1,4 +1,8 @@
 
+# EFCore
+
+Projeto criado para testar o EFCore e sua nova funcionalidade de IEntityTypeConfiguration.
+
 # comandos utilizados
 
 dotnet new mvc  
