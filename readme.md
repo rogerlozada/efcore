@@ -16,7 +16,9 @@ dotnet run
 
 # adicione no csproj
 
-<DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.1.0-preview1-final" />
+ <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.1.0-preview1-final" />
+  </ItemGroup>
 
 # comandos efcore
 
