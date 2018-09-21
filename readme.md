@@ -14,11 +14,9 @@ dotnet restore
 dotnet run
 
 
-# adicione no csproj
+# adicione no csproj em item group
 
- <ItemGroup>
-    <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.1.0-preview1-final" />
-  </ItemGroup>
+DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.1.0-preview1-final"
 
 # comandos efcore
 
