@@ -9,7 +9,7 @@ namespace efcore
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Data Source=BRSAO1PW-2632\SQLMAIN;Initial Catalog=EFCoreWebDemo;Integrated Security=False;User Id=sa;Password=brujah231;MultipleActiveResultSets=True");
+            optionsBuilder.UseSqlServer(@"Data Source=BRSAO1PW-2632\SQLMAIN;Initial Catalog=EFCoreWebDemo;Integrated Security=False;User Id=sa;Password=******;MultipleActiveResultSets=True");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
